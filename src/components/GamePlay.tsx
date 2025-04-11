@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CharacterInformation from './CharacterInformation';
 import Action from './Action';
 import { characterData } from '../data/CharacterData';
-import { CharacterStats } from '../types/CharacterStats';
+import { CharacterStats } from '../interfaces/CharacterStats';
 
 const GamePlay: React.FC = () => {
     const [characterStats, setCharacterStats] = useState<CharacterStats>(characterData);

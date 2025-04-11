@@ -1,5 +1,5 @@
 import React from 'react';
-import { CharacterStats as CharacterStatsType } from '../types/CharacterStats';
+import { CharacterStats as CharacterStatsType } from '../interfaces/CharacterStats';
 import './CharacterStats.css';
 
 interface CharacterStatsProps {

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { ActionGroup, actionGroups } from '../types/Action';
+import { ActionGroup } from '../interfaces/Action';
+import { Actions } from '../data/ActionData';
+import { actionGroups } from '../data/ActionGroup';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -50,6 +52,11 @@ const Action: React.FC<ActionProps> = ({ characterLevel, onActionComplete }) => 
         }));
     };
 
+    // Lọc các hành động theo nhóm đã chọn
+    const filteredActions = selectedGroup 
+        ? Actions.filter(action => action.group_id === selectedGroup.id).sort((a, b) => a.requiredLevel - b.requiredLevel)
+        : [];
+
     return (
         <div className="action-container">
             <ToastContainer
@@ -65,7 +72,7 @@ const Action: React.FC<ActionProps> = ({ characterLevel, onActionComplete }) => 
                 theme="light"
             />
             <div className="action-groups">
-                {actionGroups.map(group => (
+                {actionGroups.map((group: ActionGroup) => (
                     <div
                         key={group.id}
                         className={`action-group ${selectedGroup?.id === group.id ? 'active' : ''}`}
@@ -81,7 +88,7 @@ const Action: React.FC<ActionProps> = ({ characterLevel, onActionComplete }) => 
                     <div className="actions">
                         <h4>{selectedGroup.name}</h4>
                         <div className="action-items">
-                            {selectedGroup.actions.map(action => {
+                            {filteredActions.map(action => {
                                 const isEnabled = characterLevel >= action.requiredLevel;
                                 return (
                                     <div

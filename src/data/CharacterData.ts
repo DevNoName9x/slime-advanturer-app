@@ -1,4 +1,4 @@
-import { CharacterStats } from '../types/CharacterStats';
+import { CharacterStats } from '../interfaces/CharacterStats';
 
 export const characterData: CharacterStats = {
     name: "Slime Hero",

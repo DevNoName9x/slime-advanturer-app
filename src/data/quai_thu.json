@@ -1,0 +1,351 @@
+[{
+  "id": 1,
+  "name": "Slime yếu",
+  "type": "slime",
+  "level": 1,
+  "rarity": "common",
+  "description": "Một con slime yếu đuối, gần như vô hại."
+}, {
+  "id": 2,
+  "name": "Thỏ rừng",
+  "type": "beast",
+  "level": 2,
+  "rarity": "common",
+  "description": "Thỏ nhỏ, nhanh nhẹn, có thể gây sát thương nhẹ."
+}, {
+  "id": 3,
+  "name": "Dơi hang động",
+  "type": "beast",
+  "level": 3,
+  "rarity": "common",
+  "description": "Tấn công theo bầy, gây phiền toái."
+}, {
+  "id": 4,
+  "name": "Goblin trinh sát",
+  "type": "humanoid",
+  "level": 4,
+  "rarity": "common",
+  "description": "Kẻ lén lút, yếu nhưng linh hoạt."
+}, {
+  "id": 5,
+  "name": "Sói hoang",
+  "type": "beast",
+  "level": 5,
+  "rarity": "common",
+  "description": "Hung hăng khi đói, sống đơn độc."
+}, {
+  "id": 6,
+  "name": "Slime độc",
+  "type": "slime",
+  "level": 6,
+  "rarity": "uncommon",
+  "description": "Tiết ra độc tố nhẹ."
+}, {
+  "id": 7,
+  "name": "Goblin cung thủ",
+  "type": "humanoid",
+  "level": 7,
+  "rarity": "common",
+  "description": "Tấn công từ xa bằng cung."
+}, {
+  "id": 8,
+  "name": "Gấu nâu",
+  "type": "beast",
+  "level": 8,
+  "rarity": "uncommon",
+  "description": "Mạnh mẽ nhưng chậm chạp."
+}, {
+  "id": 9,
+  "name": "Xác sống lang thang",
+  "type": "undead",
+  "level": 9,
+  "rarity": "uncommon",
+  "description": "Miễn nhiễm với độc, sợ ánh sáng."
+}, {
+  "id": 10,
+  "name": "Yêu tinh hắc ám",
+  "type": "humanoid",
+  "level": 10,
+  "rarity": "rare",
+  "description": "Sử dụng ma pháp bóng tối sơ cấp."
+}, {
+  "id": 11,
+  "name": "Tarantula rừng",
+  "type": "beast",
+  "level": 11,
+  "rarity": "uncommon",
+  "description": "Gây độc và làm chậm."
+}, {
+  "id": 12,
+  "name": "Slime sét",
+  "type": "slime",
+  "level": 12,
+  "rarity": "uncommon",
+  "description": "Gây tê liệt khi tiếp xúc."
+}, {
+  "id": 13,
+  "name": "Yêu linh lạc hồn",
+  "type": "undead",
+  "level": 13,
+  "rarity": "rare",
+  "description": "Khó trúng đòn vật lý."
+}, {
+  "id": 14,
+  "name": "Chiến binh goblin",
+  "type": "humanoid",
+  "level": 14,
+  "rarity": "uncommon",
+  "description": "Trang bị giáp nhẹ, có kỷ luật."
+}, {
+  "id": 15,
+  "name": "Cá sấu khổng lồ",
+  "type": "beast",
+  "level": 15,
+  "rarity": "uncommon",
+  "description": "Sống ở đầm lầy, cắn mạnh."
+}, {
+  "id": 16,
+  "name": "Tử thần nhỏ",
+  "type": "undead",
+  "level": 16,
+  "rarity": "rare",
+  "description": "Gây hiệu ứng giảm máu."
+}, {
+  "id": 17,
+  "name": "Tinh linh gió",
+  "type": "elemental",
+  "level": 17,
+  "rarity": "rare",
+  "description": "Bay lượn và né tránh nhanh."
+}, {
+  "id": 18,
+  "name": "Orc trinh sát",
+  "type": "humanoid",
+  "level": 18,
+  "rarity": "uncommon",
+  "description": "Mạnh hơn goblin, có chiến thuật."
+}, {
+  "id": 19,
+  "name": "Sói băng",
+  "type": "beast",
+  "level": 19,
+  "rarity": "rare",
+  "description": "Gây sát thương lạnh."
+}, {
+  "id": 20,
+  "name": "Quái vật bóng tối",
+  "type": "demon",
+  "level": 20,
+  "rarity": "elite",
+  "description": "Ẩn trong bóng tối, dùng ma thuật hắc ám."
+}, {
+  "id": 21,
+  "name": "Golem đá",
+  "type": "elemental",
+  "level": 21,
+  "rarity": "rare",
+  "description": "Phòng thủ cao, tấn công chậm."
+}, {
+  "id": 22,
+  "name": "Orc chiến binh",
+  "type": "humanoid",
+  "level": 22,
+  "rarity": "uncommon",
+  "description": "Cận chiến mạnh mẽ."
+}, {
+  "id": 23,
+  "name": "Lửa ma trơi",
+  "type": "elemental",
+  "level": 23,
+  "rarity": "rare",
+  "description": "Tạo sát thương đốt cháy theo thời gian."
+}, {
+  "id": 24,
+  "name": "Nhện độc vương",
+  "type": "beast",
+  "level": 24,
+  "rarity": "elite",
+  "description": "Chúa tể loài nhện độc."
+}, {
+  "id": 25,
+  "name": "Hiệp sĩ xác sống",
+  "type": "undead",
+  "level": 25,
+  "rarity": "rare",
+  "description": "Cựu hiệp sĩ, nay trở thành undead bất tử."
+}, {
+  "id": 26,
+  "name": "Địa long",
+  "type": "beast",
+  "level": 26,
+  "rarity": "elite",
+  "description": "Rồng đất không có cánh, sống dưới lòng đất."
+}, {
+  "id": 27,
+  "name": "Phù thủy bóng đêm",
+  "type": "humanoid",
+  "level": 27,
+  "rarity": "rare",
+  "description": "Thành thạo phép thuật bóng tối."
+}, {
+  "id": 28,
+  "name": "Ma nhân",
+  "type": "demon",
+  "level": 28,
+  "rarity": "rare",
+  "description": "Linh hồn kết hợp với quỷ khí."
+}, {
+  "id": 29,
+  "name": "Gấu tinh lửa",
+  "type": "beast",
+  "level": 29,
+  "rarity": "rare",
+  "description": "Gấu lửa có khả năng thiêu đốt."
+}, {
+  "id": 30,
+  "name": "Đội trưởng orc",
+  "type": "humanoid",
+  "level": 30,
+  "rarity": "elite",
+  "description": "Thủ lĩnh đội quân orc, rất nguy hiểm."
+}, {
+  "id": 31,
+  "name": "Tinh linh băng",
+  "type": "elemental",
+  "level": 31,
+  "rarity": "rare",
+  "description": "Gây sát thương đóng băng."
+}, {
+  "id": 32,
+  "name": "Golem thép",
+  "type": "elemental",
+  "level": 32,
+  "rarity": "elite",
+  "description": "Giáp siêu cứng, kháng vật lý."
+}, {
+  "id": 33,
+  "name": "Rồng non",
+  "type": "dragon",
+  "level": 33,
+  "rarity": "elite",
+  "description": "Rồng con học bay và thở lửa."
+}, {
+  "id": 34,
+  "name": "Chiến thần xác sống",
+  "type": "undead",
+  "level": 34,
+  "rarity": "boss",
+  "description": "Một undead từng là tướng lừng danh."
+}, {
+  "id": 35,
+  "name": "Tinh linh sấm",
+  "type": "elemental",
+  "level": 35,
+  "rarity": "elite",
+  "description": "Gây choáng diện rộng bằng điện."
+}, {
+  "id": 36,
+  "name": "Chim lửa",
+  "type": "beast",
+  "level": 36,
+  "rarity": "rare",
+  "description": "Bay nhanh, bắn lửa từ trên cao."
+}, {
+  "id": 37,
+  "name": "Ác linh pháo thủ",
+  "type": "undead",
+  "level": 37,
+  "rarity": "rare",
+  "description": "Bắn đạn năng lượng từ xa."
+}, {
+  "id": 38,
+  "name": "Ma thú bóng đêm",
+  "type": "demon",
+  "level": 38,
+  "rarity": "elite",
+  "description": "Ẩn hình và hút sinh lực."
+}, {
+  "id": 39,
+  "name": "Rồng đá",
+  "type": "dragon",
+  "level": 39,
+  "rarity": "elite",
+  "description": "Lớp da như granite, cực kỳ trâu bò."
+}, {
+  "id": 40,
+  "name": "Quỷ kiếm sĩ",
+  "type": "demon",
+  "level": 40,
+  "rarity": "boss",
+  "description": "Kỹ năng kiếm thuật tà ác, rất khó đối phó."
+}, {
+  "id": 41,
+  "name": "Rồng băng",
+  "type": "dragon",
+  "level": 41,
+  "rarity": "elite",
+  "description": "Thở ra băng giá, gây đóng băng diện rộng."
+}, {
+  "id": 42,
+  "name": "Thần thú lửa",
+  "type": "beast",
+  "level": 42,
+  "rarity": "legendary",
+  "description": "Sinh vật thần thoại khống chế lửa."
+}, {
+  "id": 43,
+  "name": "Quỷ chúa",
+  "type": "demon",
+  "level": 43,
+  "rarity": "boss",
+  "description": "Thủ lĩnh địa ngục tầng thấp."
+}, {
+  "id": 44,
+  "name": "Linh long bầu trời",
+  "type": "dragon",
+  "level": 44,
+  "rarity": "legendary",
+  "description": "Rồng có trí tuệ cao và phép thuật mạnh."
+}, {
+  "id": 45,
+  "name": "Thần hộ vệ băng giá",
+  "type": "elemental",
+  "level": 45,
+  "rarity": "boss",
+  "description": "Tinh linh cổ đại, canh giữ địa mạch."
+}, {
+  "id": 46,
+  "name": "Chiến thần bất tử",
+  "type": "undead",
+  "level": 46,
+  "rarity": "boss",
+  "description": "Không thể tiêu diệt bằng đòn thông thường."
+}, {
+  "id": 47,
+  "name": "Hỏa long cổ đại",
+  "type": "dragon",
+  "level": 47,
+  "rarity": "boss",
+  "description": "Thở ra dung nham, tàn phá cả vùng đất."
+}, {
+  "id": 48,
+  "name": "Quỷ vương tối cao",
+  "type": "demon",
+  "level": 48,
+  "rarity": "legendary",
+  "description": "Một trong Tứ Ma Vương cổ đại."
+}, {
+  "id": 49,
+  "name": "Thiên Long",
+  "type": "dragon",
+  "level": 49,
+  "rarity": "legendary",
+  "description": "Rồng thần tối cao cai quản bầu trời."
+}, {
+  "id": 50,
+  "name": "Thần Thú Vĩnh Hằng",
+  "type": "beast",
+  "level": 50,
+  "rarity": "legendary",
+  "description": "Sinh vật huyền thoại bất tử, tượng trưng cho sự cân bằng."
+}]

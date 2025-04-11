@@ -24,5 +24,9 @@ export const actionGroups: ActionGroup[] = [
     {
         id:"medicine",
         name:"Chế thuốc"
+    },
+    {
+        id:"hunting",
+        name:"Săn bắn"
     }
 ]

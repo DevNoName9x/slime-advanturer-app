@@ -1480,5 +1480,505 @@ export const Actions: Action[] = [
       "requiredLevel": 11,
       "expReward": 65,
       "isEnabled": true
+    },
+    {
+      "id": "hunt_weak_slime",
+      "name": "Săn Slime yếu",
+      "group_id": "hunting",
+      "description": "Săn Slime yếu đuối, gần như vô hại",
+      "shortDescription": "Săn Slime yếu",
+      "requiredLevel": 1,
+      "expReward": 10,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_wild_rabbit",
+      "name": "Săn Thỏ rừng",
+      "group_id": "hunting",
+      "description": "Săn Thỏ nhỏ, nhanh nhẹn, có thể gây sát thương nhẹ",
+      "shortDescription": "Săn Thỏ rừng",
+      "requiredLevel": 2,
+      "expReward": 15,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_cave_bat",
+      "name": "Săn Dơi hang động",
+      "group_id": "hunting",
+      "description": "Săn Dơi hang động - tấn công theo bầy, gây phiền toái",
+      "shortDescription": "Săn Dơi hang động",
+      "requiredLevel": 3,
+      "expReward": 20,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_goblin_scout",
+      "name": "Săn Goblin trinh sát",
+      "group_id": "hunting",
+      "description": "Săn Goblin trinh sát - kẻ lén lút, yếu nhưng linh hoạt",
+      "shortDescription": "Săn Goblin trinh sát",
+      "requiredLevel": 4,
+      "expReward": 25,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_wild_wolf",
+      "name": "Săn Sói hoang",
+      "group_id": "hunting",
+      "description": "Săn Sói hoang - hung hăng khi đói, sống đơn độc",
+      "shortDescription": "Săn Sói hoang",
+      "requiredLevel": 5,
+      "expReward": 30,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_poison_slime",
+      "name": "Săn Slime độc",
+      "group_id": "hunting",
+      "description": "Săn Slime độc - tiết ra độc tố nhẹ",
+      "shortDescription": "Săn Slime độc",
+      "requiredLevel": 6,
+      "expReward": 35,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_goblin_archer",
+      "name": "Săn Goblin cung thủ",
+      "group_id": "hunting",
+      "description": "Săn Goblin cung thủ - tấn công từ xa bằng cung",
+      "shortDescription": "Săn Goblin cung thủ",
+      "requiredLevel": 7,
+      "expReward": 40,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_brown_bear",
+      "name": "Săn Gấu nâu",
+      "group_id": "hunting",
+      "description": "Săn Gấu nâu - mạnh mẽ nhưng chậm chạp",
+      "shortDescription": "Săn Gấu nâu",
+      "requiredLevel": 8,
+      "expReward": 45,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_wandering_zombie",
+      "name": "Săn Xác sống lang thang",
+      "group_id": "hunting",
+      "description": "Săn Xác sống lang thang - miễn nhiễm với độc, sợ ánh sáng",
+      "shortDescription": "Săn Xác sống lang thang",
+      "requiredLevel": 9,
+      "expReward": 50,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_dark_elf",
+      "name": "Săn Yêu tinh hắc ám",
+      "group_id": "hunting",
+      "description": "Săn Yêu tinh hắc ám - sử dụng ma pháp bóng tối sơ cấp",
+      "shortDescription": "Săn Yêu tinh hắc ám",
+      "requiredLevel": 10,
+      "expReward": 55,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_forest_tarantula",
+      "name": "Săn Tarantula rừng",
+      "group_id": "hunting",
+      "description": "Săn Tarantula rừng - gây độc và làm chậm",
+      "shortDescription": "Săn Tarantula rừng",
+      "requiredLevel": 11,
+      "expReward": 60,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_lightning_slime",
+      "name": "Săn Slime sét",
+      "group_id": "hunting",
+      "description": "Săn Slime sét - gây tê liệt khi tiếp xúc",
+      "shortDescription": "Săn Slime sét",
+      "requiredLevel": 12,
+      "expReward": 65,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_lost_soul",
+      "name": "Săn Yêu linh lạc hồn",
+      "group_id": "hunting",
+      "description": "Săn Yêu linh lạc hồn - khó trúng đòn vật lý",
+      "shortDescription": "Săn Yêu linh lạc hồn",
+      "requiredLevel": 13,
+      "expReward": 70,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_goblin_warrior",
+      "name": "Săn Chiến binh goblin",
+      "group_id": "hunting",
+      "description": "Săn Chiến binh goblin - trang bị giáp nhẹ, có kỷ luật",
+      "shortDescription": "Săn Chiến binh goblin",
+      "requiredLevel": 14,
+      "expReward": 75,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_giant_crocodile",
+      "name": "Săn Cá sấu khổng lồ",
+      "group_id": "hunting",
+      "description": "Săn Cá sấu khổng lồ - sống ở đầm lầy, cắn mạnh",
+      "shortDescription": "Săn Cá sấu khổng lồ",
+      "requiredLevel": 15,
+      "expReward": 80,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_mini_reaper",
+      "name": "Săn Tử thần nhỏ",
+      "group_id": "hunting",
+      "description": "Săn Tử thần nhỏ - gây hiệu ứng giảm máu",
+      "shortDescription": "Săn Tử thần nhỏ",
+      "requiredLevel": 16,
+      "expReward": 85,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_wind_spirit",
+      "name": "Săn Tinh linh gió",
+      "group_id": "hunting",
+      "description": "Săn Tinh linh gió - bay lượn và né tránh nhanh",
+      "shortDescription": "Săn Tinh linh gió",
+      "requiredLevel": 17,
+      "expReward": 90,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_orc_scout",
+      "name": "Săn Orc trinh sát",
+      "group_id": "hunting",
+      "description": "Săn Orc trinh sát - mạnh hơn goblin, có chiến thuật",
+      "shortDescription": "Săn Orc trinh sát",
+      "requiredLevel": 18,
+      "expReward": 95,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_ice_wolf",
+      "name": "Săn Sói băng",
+      "group_id": "hunting",
+      "description": "Săn Sói băng - gây sát thương lạnh",
+      "shortDescription": "Săn Sói băng",
+      "requiredLevel": 19,
+      "expReward": 100,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_shadow_monster",
+      "name": "Săn Quái vật bóng tối",
+      "group_id": "hunting",
+      "description": "Săn Quái vật bóng tối - ẩn trong bóng tối, dùng ma thuật hắc ám",
+      "shortDescription": "Săn Quái vật bóng tối",
+      "requiredLevel": 20,
+      "expReward": 105,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_stone_golem",
+      "name": "Săn Golem đá",
+      "group_id": "hunting",
+      "description": "Săn Golem đá - phòng thủ cao, tấn công chậm",
+      "shortDescription": "Săn Golem đá",
+      "requiredLevel": 21,
+      "expReward": 110,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_orc_warrior",
+      "name": "Săn Orc chiến binh",
+      "group_id": "hunting",
+      "description": "Săn Orc chiến binh - cận chiến mạnh mẽ",
+      "shortDescription": "Săn Orc chiến binh",
+      "requiredLevel": 22,
+      "expReward": 115,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_will_o_wisp",
+      "name": "Săn Lửa ma trơi",
+      "group_id": "hunting",
+      "description": "Săn Lửa ma trơi - tạo sát thương đốt cháy theo thời gian",
+      "shortDescription": "Săn Lửa ma trơi",
+      "requiredLevel": 23,
+      "expReward": 120,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_poison_spider_king",
+      "name": "Săn Nhện độc vương",
+      "group_id": "hunting",
+      "description": "Săn Nhện độc vương - chúa tể loài nhện độc",
+      "shortDescription": "Săn Nhện độc vương",
+      "requiredLevel": 24,
+      "expReward": 125,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_undead_knight",
+      "name": "Săn Hiệp sĩ xác sống",
+      "group_id": "hunting",
+      "description": "Săn Hiệp sĩ xác sống - cựu hiệp sĩ, nay trở thành undead bất tử",
+      "shortDescription": "Săn Hiệp sĩ xác sống",
+      "requiredLevel": 25,
+      "expReward": 130,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_earth_dragon",
+      "name": "Săn Địa long",
+      "group_id": "hunting",
+      "description": "Săn Địa long - rồng đất không có cánh, sống dưới lòng đất",
+      "shortDescription": "Săn Địa long",
+      "requiredLevel": 26,
+      "expReward": 135,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_dark_witch",
+      "name": "Săn Phù thủy bóng đêm",
+      "group_id": "hunting",
+      "description": "Săn Phù thủy bóng đêm - thành thạo phép thuật bóng tối",
+      "shortDescription": "Săn Phù thủy bóng đêm",
+      "requiredLevel": 27,
+      "expReward": 140,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_demon_human",
+      "name": "Săn Ma nhân",
+      "group_id": "hunting",
+      "description": "Săn Ma nhân - linh hồn kết hợp với quỷ khí",
+      "shortDescription": "Săn Ma nhân",
+      "requiredLevel": 28,
+      "expReward": 145,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_fire_bear",
+      "name": "Săn Gấu tinh lửa",
+      "group_id": "hunting",
+      "description": "Săn Gấu tinh lửa - gấu lửa có khả năng thiêu đốt",
+      "shortDescription": "Săn Gấu tinh lửa",
+      "requiredLevel": 29,
+      "expReward": 150,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_orc_captain",
+      "name": "Săn Đội trưởng orc",
+      "group_id": "hunting",
+      "description": "Săn Đội trưởng orc - thủ lĩnh đội quân orc, rất nguy hiểm",
+      "shortDescription": "Săn Đội trưởng orc",
+      "requiredLevel": 30,
+      "expReward": 155,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_ice_spirit",
+      "name": "Săn Tinh linh băng",
+      "group_id": "hunting",
+      "description": "Săn Tinh linh băng - gây sát thương đóng băng",
+      "shortDescription": "Săn Tinh linh băng",
+      "requiredLevel": 31,
+      "expReward": 160,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_steel_golem",
+      "name": "Săn Golem thép",
+      "group_id": "hunting",
+      "description": "Săn Golem thép - giáp siêu cứng, kháng vật lý",
+      "shortDescription": "Săn Golem thép",
+      "requiredLevel": 32,
+      "expReward": 165,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_young_dragon",
+      "name": "Săn Rồng non",
+      "group_id": "hunting",
+      "description": "Săn Rồng non - rồng con học bay và thở lửa",
+      "shortDescription": "Săn Rồng non",
+      "requiredLevel": 33,
+      "expReward": 170,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_undead_warlord",
+      "name": "Săn Chiến thần xác sống",
+      "group_id": "hunting",
+      "description": "Săn Chiến thần xác sống - một undead từng là tướng lừng danh",
+      "shortDescription": "Săn Chiến thần xác sống",
+      "requiredLevel": 34,
+      "expReward": 175,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_thunder_spirit",
+      "name": "Săn Tinh linh sấm",
+      "group_id": "hunting",
+      "description": "Săn Tinh linh sấm - gây choáng diện rộng bằng điện",
+      "shortDescription": "Săn Tinh linh sấm",
+      "requiredLevel": 35,
+      "expReward": 180,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_fire_bird",
+      "name": "Săn Chim lửa",
+      "group_id": "hunting",
+      "description": "Săn Chim lửa - bay nhanh, bắn lửa từ trên cao",
+      "shortDescription": "Săn Chim lửa",
+      "requiredLevel": 36,
+      "expReward": 185,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_evil_spirit_gunner",
+      "name": "Săn Ác linh pháo thủ",
+      "group_id": "hunting",
+      "description": "Săn Ác linh pháo thủ - bắn đạn năng lượng từ xa",
+      "shortDescription": "Săn Ác linh pháo thủ",
+      "requiredLevel": 37,
+      "expReward": 190,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_shadow_beast",
+      "name": "Săn Ma thú bóng đêm",
+      "group_id": "hunting",
+      "description": "Săn Ma thú bóng đêm - ẩn hình và hút sinh lực",
+      "shortDescription": "Săn Ma thú bóng đêm",
+      "requiredLevel": 38,
+      "expReward": 195,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_stone_dragon",
+      "name": "Săn Rồng đá",
+      "group_id": "hunting",
+      "description": "Săn Rồng đá - lớp da như granite, cực kỳ trâu bò",
+      "shortDescription": "Săn Rồng đá",
+      "requiredLevel": 39,
+      "expReward": 200,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_demon_swordsman",
+      "name": "Săn Quỷ kiếm sĩ",
+      "group_id": "hunting",
+      "description": "Săn Quỷ kiếm sĩ - kỹ năng kiếm thuật tà ác, rất khó đối phó",
+      "shortDescription": "Săn Quỷ kiếm sĩ",
+      "requiredLevel": 40,
+      "expReward": 205,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_ice_dragon",
+      "name": "Săn Rồng băng",
+      "group_id": "hunting",
+      "description": "Săn Rồng băng - thở ra băng giá, gây đóng băng diện rộng",
+      "shortDescription": "Săn Rồng băng",
+      "requiredLevel": 41,
+      "expReward": 210,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_fire_beast",
+      "name": "Săn Thần thú lửa",
+      "group_id": "hunting",
+      "description": "Săn Thần thú lửa - sinh vật thần thoại khống chế lửa",
+      "shortDescription": "Săn Thần thú lửa",
+      "requiredLevel": 42,
+      "expReward": 215,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_demon_lord",
+      "name": "Săn Quỷ chúa",
+      "group_id": "hunting",
+      "description": "Săn Quỷ chúa - thủ lĩnh địa ngục tầng thấp",
+      "shortDescription": "Săn Quỷ chúa",
+      "requiredLevel": 43,
+      "expReward": 220,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_sky_dragon",
+      "name": "Săn Linh long bầu trời",
+      "group_id": "hunting",
+      "description": "Săn Linh long bầu trời - rồng có trí tuệ cao và phép thuật mạnh",
+      "shortDescription": "Săn Linh long bầu trời",
+      "requiredLevel": 44,
+      "expReward": 225,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_ice_guardian",
+      "name": "Săn Thần hộ vệ băng giá",
+      "group_id": "hunting",
+      "description": "Săn Thần hộ vệ băng giá - tinh linh cổ đại, canh giữ địa mạch",
+      "shortDescription": "Săn Thần hộ vệ băng giá",
+      "requiredLevel": 45,
+      "expReward": 230,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_immortal_warlord",
+      "name": "Săn Chiến thần bất tử",
+      "group_id": "hunting",
+      "description": "Săn Chiến thần bất tử - không thể tiêu diệt bằng đòn thông thường",
+      "shortDescription": "Săn Chiến thần bất tử",
+      "requiredLevel": 46,
+      "expReward": 235,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_ancient_fire_dragon",
+      "name": "Săn Hỏa long cổ đại",
+      "group_id": "hunting",
+      "description": "Săn Hỏa long cổ đại - thở ra dung nham, tàn phá cả vùng đất",
+      "shortDescription": "Săn Hỏa long cổ đại",
+      "requiredLevel": 47,
+      "expReward": 240,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_supreme_demon_king",
+      "name": "Săn Quỷ vương tối cao",
+      "group_id": "hunting",
+      "description": "Săn Quỷ vương tối cao - một trong Tứ Ma Vương cổ đại",
+      "shortDescription": "Săn Quỷ vương tối cao",
+      "requiredLevel": 48,
+      "expReward": 245,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_heaven_dragon",
+      "name": "Săn Thiên Long",
+      "group_id": "hunting",
+      "description": "Săn Thiên Long - rồng thần tối cao cai quản bầu trời",
+      "shortDescription": "Săn Thiên Long",
+      "requiredLevel": 49,
+      "expReward": 250,
+      "isEnabled": true
+    },
+    {
+      "id": "hunt_eternal_beast",
+      "name": "Săn Thần Thú Vĩnh Hằng",
+      "group_id": "hunting",
+      "description": "Săn Thần Thú Vĩnh Hằng - sinh vật huyền thoại bất tử, tượng trưng cho sự cân bằng",
+      "shortDescription": "Săn Thần Thú Vĩnh Hằng",
+      "requiredLevel": 50,
+      "expReward": 255,
+      "isEnabled": true
     }
   ]

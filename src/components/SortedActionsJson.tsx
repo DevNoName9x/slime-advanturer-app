@@ -1,6 +1,5 @@
 import React, { useMemo } from "react";
 import { Actions } from "../data/ActionData";
-import { Action } from "../interfaces/Action";
 
 const SortedActionsJson: React.FC = () => {
   // Sử dụng useMemo để sắp xếp dữ liệu chỉ khi Actions thay đổi
@@ -15,30 +14,9 @@ const SortedActionsJson: React.FC = () => {
     });
   }, []);
 
-  // Tạo một đối tượng để nhóm các hành động theo group_id
-  const groupedActions = useMemo(() => {
-    const grouped: Record<string, Action[]> = {};
-
-    sortedActions.forEach((action) => {
-      if (!grouped[action.group_id]) {
-        grouped[action.group_id] = [];
-      }
-      grouped[action.group_id].push(action);
-    });
-
-    return grouped;
-  }, [sortedActions]);
-
   return (
     <div className="sorted-actions-json">
       <h2>Dữ Liệu Đã Sắp Xếp</h2>
-
-      <div className="json-container">
-        <h3>Dữ Liệu Theo Nhóm</h3>
-        <pre className="json-display">
-          {JSON.stringify(groupedActions, null, 2)}
-        </pre>
-      </div>
 
       <div className="json-container">
         <h3>Dữ Liệu Đã Sắp Xếp (Theo group_id và requiredLevel)</h3>
@@ -50,8 +28,8 @@ const SortedActionsJson: React.FC = () => {
       <style>{`
                 .sorted-actions-json {
                     padding: 20px;
-                    max-width: 1200px;
                     margin: 0 auto;
+                    text-align: left;
                 }
                 
                 .json-container {
@@ -67,10 +45,10 @@ const SortedActionsJson: React.FC = () => {
                     padding: 15px;
                     border-radius: 5px;
                     overflow: auto;
-                    max-height: 500px;
                     font-family: 'Courier New', Courier, monospace;
                     font-size: 14px;
                     line-height: 1.5;
+                    text-align: left;
                 }
                 
                 h2 {

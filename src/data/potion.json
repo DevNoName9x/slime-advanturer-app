@@ -1,0 +1,155 @@
+[
+    {
+      "id": 1,
+      "name": "Bình Sinh Lực",
+      "herb": "Lá Tĩnh Tâm",
+      "effect": "Hồi máu",
+      "description": "Hồi phục 30% HP ngay lập tức sau khi sử dụng.",
+      "affected_stat": "currentHP"
+    },
+    {
+      "id": 2,
+      "name": "Bình Tinh Thần",
+      "herb": "Hoa Linh Lam",
+      "effect": "Hồi mana",
+      "description": "Khôi phục 40% năng lượng phép thuật (MP).",
+      "affected_stat": "currentMP"
+    },
+    {
+      "id": 3,
+      "name": "Thuốc Cường Thể",
+      "herb": "Cỏ Huyết Cương",
+      "effect": "Tăng Strength",
+      "description": "Tăng 15% sức mạnh vật lý trong 5 phút.",
+      "affected_stat": "main_stat.strength"
+    },
+    {
+      "id": 4,
+      "name": "Thuốc Thông Tuệ",
+      "herb": "Rễ Tâm Hồn",
+      "effect": "Tăng Intelligence",
+      "description": "Tăng trí lực và sức mạnh phép thuật trong thời gian ngắn.",
+      "affected_stat": "main_stat.intelligence"
+    },
+    {
+      "id": 5,
+      "name": "Thuốc Ảnh Phong",
+      "herb": "Hoa Phong Ảnh",
+      "effect": "Tăng Agility",
+      "description": "Tăng tốc độ né tránh và phản xạ trong 3 phút.",
+      "affected_stat": "main_stat.agility"
+    },
+    {
+      "id": 6,
+      "name": "Dược Trường Sinh",
+      "herb": "Thảo Bất Khuất",
+      "effect": "Tăng Endurance",
+      "description": "Tăng sức chịu đựng, giảm sát thương nhận vào 10%.",
+      "affected_stat": "main_stat.endurance"
+    },
+    {
+      "id": 7,
+      "name": "Dịch Huyết Dương",
+      "herb": "Cỏ Sinh Mệnh",
+      "effect": "Tăng Máu",
+      "description": "Tăng HP tối đa thêm 20% trong 10 phút.",
+      "affected_stat": "maxHP"
+    },
+    {
+      "id": 8,
+      "name": "Tinh Dịch Ma Lực",
+      "herb": "Tinh Diệp Lam",
+      "effect": "Tăng Mana",
+      "description": "Tăng lượng mana tối đa thêm 25%.",
+      "affected_stat": "maxMP"
+    },
+    {
+      "id": 9,
+      "name": "Chiến Dược Hỏa Tâm",
+      "herb": "Cỏ Hỏa Cốt",
+      "effect": "Tăng tấn công vật lý",
+      "description": "Tăng 20% sát thương vật lý trong 2 phút.",
+      "affected_stat": "dependent_stat.physical_attack"
+    },
+    {
+      "id": 10,
+      "name": "Elixir Thiên Ma",
+      "herb": "Hoa Thiên Triều",
+      "effect": "Tăng tấn công phép thuật",
+      "description": "Tăng sát thương phép thuật đáng kể trong thời gian ngắn.",
+      "affected_stat": "dependent_stat.magic_attack"
+    },
+    {
+      "id": 11,
+      "name": "Thuốc Bảo Thể",
+      "herb": "Cốt Thảo Thạch Vân",
+      "effect": "Tăng thủ vật lý",
+      "description": "Tăng giáp vật lý lên 25 điểm trong 10 phút.",
+      "affected_stat": "dependent_stat.physical_defense"
+    },
+    {
+      "id": 12,
+      "name": "Thuốc Trụ Linh",
+      "herb": "Hoa Bích Linh",
+      "effect": "Tăng thủ phép thuật",
+      "description": "Tăng kháng phép 30% trong thời gian ngắn.",
+      "affected_stat": "dependent_stat.magic_defense"
+    },
+    {
+      "id": 13,
+      "name": "Dược Tia Chớp",
+      "herb": "Lá Chớp Tím",
+      "effect": "Tăng tốc độ đánh",
+      "description": "Tăng tốc độ đánh thêm 15% trong 60 giây.",
+      "affected_stat": "dependent_stat.attack_speed"
+    },
+    {
+      "id": 14,
+      "name": "Thuốc Gió Lướt",
+      "herb": "Cỏ Gió Bay",
+      "effect": "Tăng tốc độ chạy",
+      "description": "Tăng tốc độ di chuyển thêm 20% trong 90 giây.",
+      "affected_stat": "sub-stat.movement_speed"
+    },
+    {
+      "id": 15,
+      "name": "Bình Thời Gian",
+      "herb": "Hoa Mặt Nhật",
+      "effect": "Tăng cooldown",
+      "description": "Giảm 25% thời gian hồi chiêu kỹ năng trong 3 phút.",
+      "affected_stat": "sub-stat.cooldown"
+    },
+    {
+      "id": 16,
+      "name": "Độc Dược Huyết Xà",
+      "herb": "Diệp Xà Huyết",
+      "effect": "Gây độc",
+      "description": "Gây sát thương độc liên tục trong 10 giây cho mục tiêu trúng phải.",
+      "affected_stat": "currentHP"
+    },
+    {
+      "id": 17,
+      "name": "Khói Tê Mù",
+      "herb": "Hoa Bóng Mù",
+      "effect": "Gây tê liệt",
+      "description": "Làm chậm tốc độ di chuyển và tăng thời gian hồi chiêu của mục tiêu.",
+      "affected_stat": "sub-stat.cooldown"
+    },
+    {
+      "id": 18,
+      "name": "Giải Độc Thảo",
+      "herb": "Thảo Giải Huyết",
+      "effect": "Kháng độc",
+      "description": "Vô hiệu hóa và giảm 50% sát thương của các loại độc trong 5 phút.",
+      "affected_stat": "resist.poison"
+    },
+    {
+      "id": 19,
+      "name": "Dịch Giải Tê",
+      "herb": "Cỏ Thanh Mạch",
+      "effect": "Kháng tê liệt",
+      "description": "Giảm ảnh hưởng tê liệt và phục hồi khả năng vận động nhanh chóng.",
+      "affected_stat": "resist.paralyze"
+    }
+  ]
+  

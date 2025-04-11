@@ -11,7 +11,7 @@ const SortedActionsPage: React.FC = () => {
             
             <style >{`
                 .sorted-actions-page {
-                    padding: 20px;
+                    padding: 20px;                    
                 }
                 
                 h1 {

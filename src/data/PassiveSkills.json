@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Sức Mạnh Dã Thú",
+      "description": "Tăng vĩnh viễn sức mạnh vật lý.",
+      "affected_stat": "main_stat.strength",
+      "effect_type": "buff",
+      "value": 10
+    },
+    {
+      "id": 2,
+      "name": "Trí Tuệ Uyên Bác",
+      "description": "Gia tăng trí tuệ, giúp tăng hiệu quả kỹ năng phép.",
+      "affected_stat": "main_stat.intelligence",
+      "effect_type": "buff",
+      "value": 10
+    },
+    {
+      "id": 3,
+      "name": "Phản Xạ Tối Thượng",
+      "description": "Tăng chỉ số linh hoạt, hỗ trợ né tránh và tốc độ.",
+      "affected_stat": "main_stat.agility",
+      "effect_type": "buff",
+      "value": 10
+    },
+    {
+      "id": 4,
+      "name": "Ý Chí Thép",
+      "description": "Tăng sức chịu đựng trước sát thương kéo dài.",
+      "affected_stat": "main_stat.endurance",
+      "effect_type": "buff",
+      "value": 10
+    },
+    {
+      "id": 5,
+      "name": "Thân Hình Vạm Vỡ",
+      "description": "Tăng giới hạn HP vĩnh viễn.",
+      "affected_stat": "maxHP",
+      "effect_type": "buff",
+      "value": 15
+    },
+    {
+      "id": 6,
+      "name": "Tâm Linh Vững Vàng",
+      "description": "Tăng giới hạn MP vĩnh viễn.",
+      "affected_stat": "maxMP",
+      "effect_type": "buff",
+      "value": 15
+    },
+    {
+      "id": 7,
+      "name": "Kỹ Năng Vật Lý",
+      "description": "Tăng sát thương vật lý.",
+      "affected_stat": "dependent_stat.physical_attack",
+      "effect_type": "buff",
+      "value": 12
+    },
+    {
+      "id": 8,
+      "name": "Tinh Thông Ma Thuật",
+      "description": "Tăng sát thương phép thuật.",
+      "affected_stat": "dependent_stat.magic_attack",
+      "effect_type": "buff",
+      "value": 12
+    },
+    {
+      "id": 9,
+      "name": "Hộ Giáp Cổ Xưa",
+      "description": "Tăng phòng ngự vật lý.",
+      "affected_stat": "dependent_stat.physical_defense",
+      "effect_type": "buff",
+      "value": 10
+    },
+    {
+      "id": 10,
+      "name": "Vòng Bảo Hộ Ma Lực",
+      "description": "Tăng phòng ngự phép thuật.",
+      "affected_stat": "dependent_stat.magic_defense",
+      "effect_type": "buff",
+      "value": 10
+    },
+    {
+      "id": 11,
+      "name": "Bản Năng Chiến Binh",
+      "description": "Tăng tốc độ tấn công.",
+      "affected_stat": "dependent_stat.attack_speed",
+      "effect_type": "buff",
+      "value": 10
+    },
+    {
+      "id": 12,
+      "name": "Bước Chân Thần Tốc",
+      "description": "Tăng tốc độ di chuyển.",
+      "affected_stat": "sub-stat.movement_speed",
+      "effect_type": "buff",
+      "value": 10
+    },
+    {
+      "id": 13,
+      "name": "Tinh Chỉnh Ma Pháp",
+      "description": "Giảm thời gian hồi chiêu kỹ năng.",
+      "affected_stat": "sub-stat.cooldown",
+      "effect_type": "buff",
+      "value": -10
+    },
+    {
+      "id": 14,
+      "name": "Kháng Độc Tự Nhiên",
+      "description": "Giảm sát thương từ độc.",
+      "affected_stat": "resist.poison",
+      "effect_type": "resistance",
+      "value": 50
+    },
+    {
+      "id": 15,
+      "name": "Thần Kinh Thép",
+      "description": "Giảm ảnh hưởng từ trạng thái tê liệt.",
+      "affected_stat": "resist.paralyze",
+      "effect_type": "resistance",
+      "value": 50
+    }
+  ]
+  

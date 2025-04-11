@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "Hồi máu",
+      "description": "Phục hồi lượng máu đã mất cho mục tiêu."
+    },
+    {
+      "id": 2,
+      "name": "Hồi mana",
+      "description": "Phục hồi năng lượng phép thuật (mana)."
+    },
+    {
+      "id": 3,
+      "name": "Tăng Strength",
+      "description": "Tăng sức mạnh vật lý, ảnh hưởng đến sát thương cận chiến và nâng vật nặng."
+    },
+    {
+      "id": 4,
+      "name": "Tăng Intelligence",
+      "description": "Tăng trí lực, tăng hiệu quả phép thuật và lượng mana tối đa."
+    },
+    {
+      "id": 5,
+      "name": "Tăng Agility",
+      "description": "Tăng tốc độ di chuyển, né tránh và tốc độ phản xạ."
+    },
+    {
+      "id": 6,
+      "name": "Tăng Endurance",
+      "description": "Tăng sức chịu đựng, giảm sát thương nhận vào, kéo dài thời gian chiến đấu."
+    },
+    {
+      "id": 7,
+      "name": "Tăng Máu",
+      "description": "Tăng lượng HP tối đa của mục tiêu."
+    },
+    {
+      "id": 8,
+      "name": "Tăng Mana",
+      "description": "Tăng lượng MP tối đa, giúp thi triển được nhiều phép hơn."
+    },
+    {
+      "id": 9,
+      "name": "Tăng tấn công vật lý",
+      "description": "Tăng lượng sát thương từ các đòn tấn công cận chiến hoặc vũ khí vật lý."
+    },
+    {
+      "id": 10,
+      "name": "Tăng tấn công phép thuật",
+      "description": "Tăng lượng sát thương từ các đòn tấn công phép hoặc kỹ năng ma pháp."
+    },
+    {
+      "id": 11,
+      "name": "Tăng thủ vật lý",
+      "description": "Tăng khả năng phòng ngự trước các đòn đánh vật lý."
+    },
+    {
+      "id": 12,
+      "name": "Tăng thủ phép thuật",
+      "description": "Tăng khả năng kháng lại sát thương phép hoặc hiệu ứng phép thuật."
+    },
+    {
+      "id": 13,
+      "name": "Tăng tốc độ đánh",
+      "description": "Tăng số lần tấn công trong mỗi đơn vị thời gian."
+    },
+    {
+      "id": 14,
+      "name": "Tăng tốc độ chạy",
+      "description": "Tăng tốc độ di chuyển của người sử dụng."
+    },
+    {
+      "id": 15,
+      "name": "Giảm cooldown",
+      "description": "Rút ngắn thời gian hồi chiêu của kỹ năng hoặc vật phẩm."
+    },
+    {
+      "id": 16,
+      "name": "Gây độc",
+      "description": "Gây sát thương liên tục theo thời gian, ảnh hưởng tiêu cực đến sinh lực mục tiêu."
+    },
+    {
+      "id": 17,
+      "name": "Gây tê liệt",
+      "description": "Làm chậm tốc độ di chuyển, tốc độ đánh, và kéo dài thời gian hồi chiêu kỹ năng."
+    },
+    {
+      "id": 18,
+      "name": "Kháng độc",
+      "description": "Giảm sát thương và thời gian ảnh hưởng từ các hiệu ứng độc."
+    },
+    {
+      "id": 19,
+      "name": "Kháng tê liệt",
+      "description": "Giảm tác động của trạng thái tê liệt, hạn chế làm chậm hoặc kéo dài cooldown."
+    }
+  ]
+  

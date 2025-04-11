@@ -22,7 +22,7 @@ export const actionGroups: ActionGroup[] = [
         name:"Nấu ăn"
     },
     {
-        id:"Medicine",
+        id:"medicine",
         name:"Chế thuốc"
     }
 ]

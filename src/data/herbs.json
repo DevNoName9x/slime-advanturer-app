@@ -1,0 +1,117 @@
+[
+    {
+      "id": 1,
+      "name": "Lá Tĩnh Tâm",
+      "description": "Một loại lá mát, giúp cơ thể hồi phục nhanh chóng.",
+      "affected_stat": "currentHP"
+    },
+    {
+      "id": 2,
+      "name": "Hoa Linh Lam",
+      "description": "Loài hoa chứa tinh linh ma lực, hỗ trợ hồi phục mana.",
+      "affected_stat": "currentMP"
+    },
+    {
+      "id": 3,
+      "name": "Cỏ Huyết Cương",
+      "description": "Cỏ mọc ở đất có sắt, tăng cường sức mạnh thể chất.",
+      "affected_stat": "main_stat.strength"
+    },
+    {
+      "id": 4,
+      "name": "Rễ Tâm Hồn",
+      "description": "Rễ cây cổ đại, giúp gia tăng trí tuệ.",
+      "affected_stat": "main_stat.intelligence"
+    },
+    {
+      "id": 5,
+      "name": "Hoa Phong Ảnh",
+      "description": "Nở dưới bóng trăng, làm tăng sự linh hoạt.",
+      "affected_stat": "main_stat.agility"
+    },
+    {
+      "id": 6,
+      "name": "Thảo Bất Khuất",
+      "description": "Cỏ mọc dưới núi lửa, tăng sức chịu đựng.",
+      "affected_stat": "main_stat.endurance"
+    },
+    {
+      "id": 7,
+      "name": "Cỏ Sinh Mệnh",
+      "description": "Tăng giới hạn sinh lực.",
+      "affected_stat": "maxHP"
+    },
+    {
+      "id": 8,
+      "name": "Tinh Diệp Lam",
+      "description": "Tăng giới hạn ma lực.",
+      "affected_stat": "maxMP"
+    },
+    {
+      "id": 9,
+      "name": "Cỏ Hỏa Cốt",
+      "description": "Tăng sát thương vật lý.",
+      "affected_stat": "dependent_stat.physical_attack"
+    },
+    {
+      "id": 10,
+      "name": "Hoa Thiên Triều",
+      "description": "Tăng sát thương phép thuật.",
+      "affected_stat": "dependent_stat.magic_attack"
+    },
+    {
+      "id": 11,
+      "name": "Cốt Thảo Thạch Vân",
+      "description": "Tăng phòng ngự vật lý.",
+      "affected_stat": "dependent_stat.physical_defense"
+    },
+    {
+      "id": 12,
+      "name": "Hoa Bích Linh",
+      "description": "Tăng phòng ngự phép.",
+      "affected_stat": "dependent_stat.magic_defense"
+    },
+    {
+      "id": 13,
+      "name": "Lá Chớp Tím",
+      "description": "Tăng tốc độ đánh.",
+      "affected_stat": "dependent_stat.attack_speed"
+    },
+    {
+      "id": 14,
+      "name": "Cỏ Gió Bay",
+      "description": "Tăng tốc độ chạy.",
+      "affected_stat": "sub-stat.movement_speed"
+    },
+    {
+      "id": 15,
+      "name": "Hoa Mặt Nhật",
+      "description": "Giảm thời gian hồi chiêu.",
+      "affected_stat": "sub-stat.cooldown"
+    },
+    {
+      "id": 16,
+      "name": "Diệp Xà Huyết",
+      "description": "Gây độc, ảnh hưởng dần đến HP.",
+      "affected_stat": "currentHP"
+    },
+    {
+      "id": 17,
+      "name": "Hoa Bóng Mù",
+      "description": "Gây tê liệt, ảnh hưởng tốc độ và cooldown.",
+      "affected_stat": "sub-stat.cooldown"
+    },
+    {
+      "id": 18,
+      "name": "Thảo Giải Huyết",
+      "description": "Kháng độc.",
+      "affected_stat": "resist.poison"
+    },
+    {
+      "id": 19,
+      "name": "Cỏ Thanh Mạch",
+      "description": "Kháng tê liệt.",
+      "affected_stat": "resist.paralyze"
+    }
+  ]
+  

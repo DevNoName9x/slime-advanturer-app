@@ -4,6 +4,7 @@ import { Actions } from '../data/ActionData';
 import { actionGroups } from '../data/ActionGroup';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ActionItem from './ActionItem';
 
 interface ActionProps {
     characterLevel: number;
@@ -72,13 +73,12 @@ const Action: React.FC<ActionProps> = ({ characterLevel, onActionComplete }) => 
                 theme="light"
             />
             <div className="action-groups">
-                {actionGroups.map((group: ActionGroup) => (
+                {actionGroups.sort((a, b) => a.name.localeCompare(b.name)).map((group: ActionGroup) => (
                     <div
                         key={group.id}
                         className={`action-group ${selectedGroup?.id === group.id ? 'active' : ''}`}
                         onClick={() => setSelectedGroup(group)}
-                    >
-                        {group.name}
+                    > {group.name}
                     </div>
                 ))}
             </div>
@@ -88,30 +88,17 @@ const Action: React.FC<ActionProps> = ({ characterLevel, onActionComplete }) => 
                     <div className="actions">
                         <h4>{selectedGroup.name}</h4>
                         <div className="action-items">
-                            {filteredActions.map(action => {
-                                const isEnabled = characterLevel >= action.requiredLevel;
-                                return (
-                                    <div
-                                        key={action.id}
-                                        className={`action-item ${isEnabled ? '' : 'disabled'}`}
-                                        onClick={() => handleActionClick(action)}
-                                        onMouseEnter={(e) => handleMouseEnter(e, action.description)}
-                                        onMouseLeave={handleMouseLeave}
-                                        onMouseMove={handleMouseMove}
-                                    >
-                                        <div className="action-header">
-                                            <span className="action-name">{action.name}</span>
-                                            <span className="action-exp">+{action.expReward} EXP</span>
-                                        </div>
-                                        <div className="action-description">{action.shortDescription}</div>
-                                        {!isEnabled && (
-                                            <div className="action-requirement">
-                                                Yêu cầu Level {action.requiredLevel}
-                                            </div>
-                                        )}
-                                    </div>
-                                );
-                            })}
+                            {filteredActions.map(action => (
+                                <ActionItem
+                                    key={action.id}
+                                    action={action}
+                                    characterLevel={characterLevel}
+                                    onActionClick={handleActionClick}
+                                    onMouseEnter={handleMouseEnter}
+                                    onMouseLeave={handleMouseLeave}
+                                    onMouseMove={handleMouseMove}
+                                />
+                            ))}
                         </div>
                     </div>
                 ) : (

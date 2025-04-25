@@ -48,22 +48,18 @@ const GamePlay: React.FC = () => {
     });
   };
 
-  return (
-    <div className="container p-2">
-      <div >
+  return (    
         <div className="row">
-          <div className="col-4">
+          <div className="col-3">
             <CharacterInformation characterStats={characterStats} />
           </div>
-          <div className="col-8">
+          <div className="col-9">
             <Action
               characterLevel={characterStats.level}
               onActionComplete={handleActionComplete}
             />
           </div>
         </div>
-      </div>
-    </div>
   );
 };
 

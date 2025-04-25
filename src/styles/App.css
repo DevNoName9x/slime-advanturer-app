@@ -142,7 +142,7 @@
 }
 
 .main-stats, .dependent-stats {
-    background-color: #f8f9fa;
+    background-color: #cadcee;
     padding: 15px;
     border-radius: 8px;
 }
@@ -188,7 +188,7 @@
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 8px;
-    background-color: #f8f9fa;
+    background-color: #cadcee;
 }
 
 .stat-group h6 {
@@ -231,7 +231,7 @@
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-color: #f8f9fa;
+    background-color: #cadcee;
 }
 
 .action-group:hover {
@@ -263,7 +263,7 @@
 .action-item {
     padding: 15px;
     border-radius: 8px;
-    background-color: #f8f9fa;
+    background-color: #cadcee;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -345,8 +345,7 @@
 }
 
 .header-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
   padding: 0 1rem;
   display: flex;
   justify-content: space-between;
@@ -388,10 +387,9 @@
 
 .main-content {
   flex: 1;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
   width: 100%;
+  padding: 2rem 1rem;
+  background: aliceblue;
 }
 
 .start-screen {

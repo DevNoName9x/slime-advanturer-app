@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { CharacterStats } from "../interfaces/CharacterStats";
 import CharacterStatsComponent from './CharacterStats';
 import CharacterSkills from './CharacterSkills';
-import './CharacterInformation.css';
+import '../styles/CharacterInformation.css';
 
 interface CharacterInformationProps {
   characterStats: CharacterStats;

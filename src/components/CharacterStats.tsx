@@ -1,6 +1,6 @@
 import React from 'react';
 import { CharacterStats as CharacterStatsType } from '../interfaces/CharacterStats';
-import './CharacterStats.css';
+import '../styles/CharacterStats.css';
 
 interface CharacterStatsProps {
     stats: CharacterStatsType;

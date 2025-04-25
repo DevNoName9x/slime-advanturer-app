@@ -1,5 +1,5 @@
 import React from 'react';
-import './CharacterSkills.css';
+import '../styles/CharacterSkills.css';
 
 interface Skill {
     name: string;

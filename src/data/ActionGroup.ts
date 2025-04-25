@@ -3,11 +3,11 @@ import { ActionGroup } from "../interfaces/Action";
 export const actionGroups: ActionGroup[] = [
     {
         id: "gathering",
-        name: "Thu thập nguyên liệu",
+        name: "Thu thập \n nguyên liệu",
     },
     {
         id: "herbalism",
-        name: "Thu thập thảo dược",
+        name: "Thu thập \n thảo dược",
     },
     {
         id: "quests",
